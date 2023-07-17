@@ -1,4 +1,4 @@
-# retrieval_augmented_generation
+# Retrieval Augmented Generation with GPT and Langchain
 
 Ever since ChatGPT came out, people have been building a personalized ChatGPT for their data. The desire and demand for this highlights an important limitation of ChatGPT - it doesn't know about YOUR data, and most people would find it more useful if it did. So how do you go about building a chatbot that knows about your data?
 
