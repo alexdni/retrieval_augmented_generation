@@ -18,14 +18,14 @@ Install [Langchain](https://github.com/hwchase17/langchain) and other required p
 ```
 pip install langchain openai chromadb tiktoken unstructured
 ```
-Modify `constants.py.default` to use your own [OpenAI API key](https://platform.openai.com/account/api-keys), and rename it to `constants.py`.
+Modify `constants.py` to use your own [OpenAI API key](https://platform.openai.com/account/api-keys).
 
 Place your own data into `data/data.txt`.
 
 ## Example usage
 Test reading `data/data.txt` file. I used a news article about Threads - to ensure that we are demonstrating learning from the local file, not from the pre-generated LLM (OpenAI) knowledge.
 ```
-> python chatgpt.py "what is Threads"
+> python gpt_digest.py "what is Threads"
 Threads is Meta's new social media platform released to rival Twitter.
 ```
 Try this out. 
